@@ -1,0 +1,24 @@
+body{
+ background-color: #C0C0C0;
+}
+
+#editor{
+  margin: 13px;
+  border: 4px 10px;
+  border-radius: 1%;
+  box-shadow: 3px 1px 6px 1px rgba(0, 0, 255, .3);
+  
+}
+
+#preview{
+  margin: 13px;
+  border: 1px solid black;
+  box-shadow: 3px 1px 6px 1px rgba(4, 0, 255, .4);
+}
+
+@media and(max-width: 880px){
+  #wrapper{
+    display:flex;
+    flex-direction:column;
+  }
+}
